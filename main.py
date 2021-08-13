@@ -4,9 +4,8 @@ import bottle
 from bottle import request
 
 app = bottle.default_app()
-
 @bottle.route("/webhook", method=['POST'])
-def get_webhook_data():
+def webhook_data():
     if request.method == 'POST':
         data = request.json
         outfile = open('output.txt', 'w')

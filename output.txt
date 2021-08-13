@@ -1,1 +1,0 @@
-{"Device": "CSI-Connect", "Hydro Pump State": "Good"}
