@@ -8,8 +8,9 @@ app = bottle.default_app()
 def webhook_data():
     if request.method == 'POST':
         data = request.json
-        with open('output.txt', 'a') as outfile:
-            json.dump(data, outfile)
+        with open('output.txt', 'w') as outfile:
+        #    json.dump(data, outfile)
+            outfile.write(data)
             outfile.close()
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
