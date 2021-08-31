@@ -1,7 +1,7 @@
 import requests
 import json
 
-local_url = 'http://8695a32d35a2.ngrok.io/webhook'
+local_url = 'https://5680-188-223-102-254.ngrok.io/webhook'
 
 data = {'Device': 'CSI-Connect',
          'Hydro Pump State': 'Good'}

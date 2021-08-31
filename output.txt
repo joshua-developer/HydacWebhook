@@ -1,10 +1,1 @@
-{
-  "api_key": "1234567890",
-  "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",
-  "1-AS1000": "",
-  "2-CS1000": "",
-  "channel 3": "",
-  "channel 4": ""
-}
-
-    
+{"Device": "CSI-Connect", "Hydro Pump State": "Good"}
